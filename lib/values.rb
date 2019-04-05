@@ -10,7 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.values.collect do |value|
-    value
-  end
+  groceries.values.flatten
 end
